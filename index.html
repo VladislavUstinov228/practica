@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link href="./css/reset.css" rel="stylesheet" />
     <link href="./css/normalize.css" rel="stylesheet" />
     <link href="./css/base.css" rel="stylesheet" />
@@ -11,18 +17,58 @@
   </head>
   <body>
     <header class="header">
-      <div class="div1"><img src="./images/logo.svg" alt="Logotype" /></div>
-      <div>
-        <ul>
-          <a href="">Projects</a>
-          <a href="">About</a>
-          <a href="">News</a>
-          <a href="">Team</a>
-          <a href="">Contacts</a>
-          <a class="black_button" href="">Get template</a>
-        </ul>
+      <div class="container">
+        <div class="header_top">
+          <a href="#" class="logo">
+            <img class="logo_svg" src="./images/logo.svg" alt="Logo" />
+          </a>
+          <nav class="menu">
+            <ul class="menu_list">
+              <li class="menu_punkt">
+                <a href="#" class="menu_link">Projects</a>
+              </li>
+              <li class="menu_punkt">
+                <a href="#" class="menu_link">About</a>
+              </li>
+              <li class="menu_punkt">
+                <a href="#" class="menu_link">News</a>
+              </li>
+              <li class="menu_punkt">
+                <a href="#" class="menu_link">Team</a>
+              </li>
+              <li class="menu_punkt">
+                <a href="#" class="menu_link">Contact</a>
+              </li>
+              <li class="menu_punkt">
+                <form action="page/new.html" target="_blank">
+                  <button>Get template</button>
+                </form>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="div3"></div>
     </header>
+    <div class="div_content">
+      <div class="container2">
+        <ul class="text">
+          <li class="text_item">
+            <p class="text_zagl">Wishbone+Partners</h1>
+          </li>
+          <li class="text_item">
+            <h1 class="zagl">The home of beautiful architecture.</h1>
+          </li>
+          <li class="text_item">
+            <p class="text_text">We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below.</p>
+          </li>
+          <li class="text_item">
+            <a class="text_ssilka" href="#">Read more</a>
+          </li>
+        </ul>
+        <div class="img_boxone">
+          <img src="./images/main-one.jpg" alt="House1">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
