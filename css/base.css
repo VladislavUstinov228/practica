@@ -1,23 +1,3 @@
-@media screen and (max-width: 1920px) {
-  div.contentblock {
-    width: 1920px;
-  }
-}
-@media screen and (max-width: 1280px) {
-  div.contentblock {
-    width: 1200px;
-  }
-}
-@media screen and (max-width: 1140px) {
-  div.contentblock {
-    width: 1024px;
-  }
-}
-@media screen and (max-width: 992px) {
-  div.contentblock {
-    width: 970px;
-  }
-}
 *,
 *::after,
 *::before {
@@ -31,198 +11,78 @@ body {
   line-height: 24px;
 }
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 1920px;
-  max-height: 90px;
-  margin: 0 auto;
-  padding: 0 340px;
-  -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  padding-top: 36px;
+  padding-bottom: 35px;
   box-shadow: 11px 11px 25px rgba(9, 7, 37, 0.06);
 }
 .container {
-  max-width: 1920px;
-}
-.container2 {
-  display: flex;
-  max-width: 1450px;
-  max-height: 1000px;
-  padding: 0 100px;
+  max-width: 1460px;
+  width: 100%;
+  padding: 0 10px;
   margin: 0 auto;
-  margin-left: 100px;
-  background: rgba(236, 231, 228, 1);
+  max-height: 720px;
 }
-.header_top {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header__row {
   display: flex;
-  justify-content: center;
-  column-gap: 500px;
-  padding-top: 36px;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo {
-  margin-left: 16px;
-  margin-bottom: 20px;
+.header__logo {
 }
-.logo_svg {
-  margin-bottom: 40px;
+.header__nav {
+  font-weight: 400;
 }
-.menu {
-}
-.menu_list {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.header__nav ul {
   display: flex;
 }
-a {
-  color: inherit;
+.header__nav li {
+  margin-right: 36px;
+}
+.header__nav a {
+  line-height: 46px;
+  color: #1b1a1a;
   text-decoration: none;
 }
-.menu_punkt + .menu_punkt {
-  margin-left: 32px;
+.header__template a {
+  color: white;
 }
-.menu_link {
-  font-size: 15px;
-  color: #1b1a1a;
-  line-height: 24px;
-}
-
-button {
-  background: #1b1a1a;
-  color: #fff;
-  border: none;
-  border-radius: 14px;
-  padding: 10px 22px;
-  font-size: 15px;
-  color: #ffffff;
-  line-height: 24px;
-  width: 155px;
-  height: 46px;
-}
-.text_zagl {
-  color: #645c55;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  max-width: 190px;
-  margin-left: 4px;
-}
-.text {
+.btn,
+a.btn {
   display: inline-block;
-  text-align: left;
-  margin-top: 137px;
-  max-width: 509px;
+  height: 46px;
+  border-radius: 14px;
+  line-height: 46px;
+  padding: 0 50px;
+  font-size: 16px;
+  background-color: #1b1a1a;
+  color: white;
 }
-.text_item {
+.box1__content {
+  background-image: url(/images/main-one.jpg);
+  height: 720px;
+  width: 1440px;
+  background-color: #ece7e4;
+  background-repeat: no-repeat;
+  background-position: right;
 }
-.zagl {
+.title {
+  padding-left: 50px;
+}
+.container__box {
+  padding-left: 50px;
+}
+.head {
+  width: 417px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
   line-height: 70px;
-  color: #1b1a1a;
-  max-width: 417px;
 }
-.text_text {
+.content {
   width: 509px;
   padding-bottom: 41px;
 }
-.text_ssilka {
-  margin-left: 25px;
-}
-.div_content {
-  max-width: 1050px;
-  max-height: 720px;
-  padding-left: 100px;
-  padding-bottom: 100px;
-  margin-bottom: 100px;
-}
-.img_boxone {
-  max-width: 1000px;
-  max-height: 720px;
-  padding-left: 240px;
-}
-.div_firm {
-  display: inline-block;
-  min-width: 550px;
-}
-.container3 {
-  display: flex;
-  max-width: 1450px;
-  max-height: 1000px;
-  min-width: 550px;
-  padding: 0 100px;
-  margin: 0 auto;
-  margin-left: 100px;
-}
-.our {
-  display: inline-block;
-  padding-left: 350px;
-  text-align: left;
-  max-width: 515px;
-}
-.random {
-  min-width: 515px;
-}
-.random-text {
-  padding-top: 20px;
-  width: 700px;
-  padding-left: 255px;
-}
-.icon_steve {
-  display: flex;
-  padding-left: 930px;
-  padding-top: 18px;
-}
-.firm {
-  max-width: 1259px;
-}
-.Lorem {
-  min-width: 515px;
-}
-.FIO {
-  min-width: 515px;
-}
-.name {
-  max-width: 1000px;
-  padding-left: 30px;
-  padding-top: 20px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 26px;
-  color: #1b1a1a;
-}
-.rank {
-  max-width: 1000px;
-  padding-left: 30px;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  color: #645c55;
-}
-.reeding-house {
-}
-.container4 {
-  display: flex;
-  max-width: 1600px;
-  max-height: 1000px;
-  padding: 0 100px;
-  margin: 0 auto;
-  margin-left: 100px;
-}
-.reeding {
-}
-.text2 {
-}
-.random2 {
-}
-.random-ran2 {
+.read {
+  padding-left: 25px;
 }
