@@ -1,3 +1,8 @@
+@media screen and (max-width: 1920px) {
+  div.contentblock {
+    width: 1920px;
+  }
+}
 @media screen and (max-width: 1280px) {
   div.contentblock {
     width: 1200px;
@@ -9,7 +14,7 @@
   }
 }
 @media screen and (max-width: 992px) {
-  div. contentblock {
+  div.contentblock {
     width: 970px;
   }
 }
@@ -26,22 +31,31 @@ body {
   line-height: 24px;
 }
 .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1920px;
   max-height: 90px;
+  margin: 0 auto;
+  padding: 0 340px;
+  -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 11px 11px 25px rgba(9, 7, 37, 0.06);
 }
 .container {
-  display: flex;
-  max-width: 1460px;
-  padding: 0 10px;
-  margin: 0 auto;
+  max-width: 1920px;
 }
 .container2 {
   display: flex;
-  max-width: 1460px;
-  padding: 0 10px;
+  max-width: 1450px;
+  max-height: 1000px;
+  padding: 0 100px;
   margin: 0 auto;
+  margin-left: 100px;
   background: rgba(236, 231, 228, 1);
 }
 .header_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   column-gap: 500px;
@@ -57,6 +71,8 @@ body {
 .menu {
 }
 .menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 a {
@@ -92,13 +108,13 @@ button {
   letter-spacing: 2px;
   text-transform: uppercase;
   max-width: 190px;
-  margin-left: 95px;
+  margin-left: 4px;
 }
 .text {
   display: inline-block;
   text-align: left;
   margin-top: 137px;
-  margin-left: 100px;
+  max-width: 509px;
 }
 .text_item {
 }
@@ -112,21 +128,43 @@ button {
   max-width: 417px;
 }
 .text_text {
-  max-width: 509px;
-  padding-bottom: 49px;
+  width: 509px;
+  padding-bottom: 41px;
 }
 .text_ssilka {
   margin-left: 25px;
 }
 .div_content {
-  max-width: 952px;
+  max-width: 1050px;
   max-height: 720px;
   padding-left: 100px;
   padding-bottom: 100px;
   margin-bottom: 100px;
 }
 .img_boxone {
-  max-width: 952px;
+  max-width: 1000px;
   max-height: 720px;
-  padding-left: 336px;
+  padding-left: 240px;
+}
+.div_firm {
+}
+.container3 {
+  display: flex;
+  max-width: 1450px;
+  max-height: 1000px;
+  padding: 0 100px;
+  margin: 0 auto;
+  margin-left: 100px;
+}
+.our {
+  width: 134px;
+}
+.random {
+}
+.random-text {
+  width: 1259px;
+  padding-left: 680px;
+}
+.icon_steve {
+  display: flex;
 }
