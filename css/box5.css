@@ -1,0 +1,39 @@
+.box5__content {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background-image: url(/images/main-three.jpg);
+  justify-content: flex-end;
+  align-items: center;
+}
+.box5__background {
+}
+.box5__text {
+  max-width: 360px;
+  padding-right: 75px;
+}
+.box5__text-reed {
+}
+.box5__reed-random {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #403e3b;
+}
+.box5__reed-main {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #645c55;
+}
