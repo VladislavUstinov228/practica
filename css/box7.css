@@ -1,20 +1,18 @@
-.box5__content {
+.box7__content {
   display: flex;
   width: 100%;
   height: 600px;
-  background-image: url(/images/main-three.jpg);
-  justify-content: flex-end;
+  background-image: url(/images/main-four.jpg);
+  justify-content: flex-start;
   align-items: center;
 }
-.box5__background {
-}
-.box5__text {
+.box7__text {
   max-width: 360px;
-  padding-right: 75px;
+  padding-left: 75px;
 }
-.box5__text-marble {
+.box7__text-stair {
 }
-.box5__marble-random {
+.box7__stair-random {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -27,7 +25,7 @@
 
   color: #403e3b;
 }
-.box5__marble-main {
+.box7__stair-main {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
