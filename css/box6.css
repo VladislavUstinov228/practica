@@ -9,31 +9,44 @@
   display: flex;
   width: 720px;
   height: 410px;
-  border: 3px solid rgb(48, 160, 160);
   align-items: center;
+  margin-top: 56px;
 }
 .box6__content-second {
-  border: 3px solid rgb(52, 255, 255);
+  display: inline-block;
   width: 720px;
   height: 410px;
-  display: flex;
-
-  justify-content: center;
+  margin-top: 65px;
 }
 .box6__imgs {
+  width: 450px;
   display: flex;
-
-  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.box6__imgs-tabl {
-  flex-flow: column wrap;
-  align-items: center;
-  height: 210px;
-  width: 400px;
-  display: flex;
-  justify-content: space-between;
+.box6__hill {
+  width: 128px;
+  height: 30px;
+  margin: 30px;
+  margin-top: 60px;
+  margin-bottom: 105px;
 }
-.box6__imgs-spisok {
+.box6__studio {
+  width: 128px;
+  height: 20px;
+  margin: 30px;
+  margin-bottom: 100px;
+}
+.riskgransen {
+  width: 128px;
+  height: 76px;
+  margin: 30px;
+  margin-bottom: 0px;
+}
+.chill {
+  width: 128px;
+  height: 36px;
+  margin: 30px;
 }
 .box6__text {
   width: 584px;
@@ -44,17 +57,14 @@
 }
 .box6__spisok-text {
 }
-.box6_header {
+.box6__header {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  /* identical to box height, or 143% */
-
   letter-spacing: 2px;
   text-transform: uppercase;
-
   color: #ece7e4;
 }
 .box6__podheader {
