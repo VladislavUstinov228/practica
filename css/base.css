@@ -1,18 +1,4 @@
-@media screen and (max-width: 1280px) {
-  div.container {
-    width: 1200px;
-  }
-}
-@media screen and (max-width: 1140px) {
-  div.container {
-    width: 1024px;
-  }
-}
-@media screen and (max-width: 992px) {
-  div.container {
-    width: 970px;
-  }
-}
+/* =======сверху адаптация====== */
 *,
 *::after,
 *::before {

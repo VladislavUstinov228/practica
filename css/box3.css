@@ -1,0 +1,36 @@
+.box3__content {
+  display: flex;
+  width: 1440px;
+  height: 600px;
+  background-image: url(/images/main-two-reed-house.jpg);
+  justify-content: flex-end;
+  align-items: center;
+}
+.box3__background {
+}
+.box3__text {
+  max-width: 360px;
+  padding-right: 75px;
+}
+.box3__text-reed {
+}
+.box3__reed-random {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #403e3b;
+}
+.box3__reed-main {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #645c55;
+}
