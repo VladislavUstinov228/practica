@@ -21,10 +21,6 @@
 .header__nav {
   font-weight: 400;
   padding-right: 70px;
-  overflow: hidden;
-}
-.header__nav .icon {
-  display: none;
 }
 .header__nav ul {
   display: flex;

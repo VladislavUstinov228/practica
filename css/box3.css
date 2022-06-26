@@ -1,6 +1,6 @@
 .box3__content {
   display: flex;
-  width: 1440px;
+  width: 100%;
   height: 600px;
   background-image: url(/images/main-two-reed-house.jpg);
   justify-content: flex-end;

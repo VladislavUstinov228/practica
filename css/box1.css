@@ -1,7 +1,7 @@
 .box1__content {
   background-image: url(/images/main-one.jpg);
   height: 720px;
-  width: 1440px;
+  width: 100%;
   background-color: #ece7e4;
   background-repeat: no-repeat;
   background-size: 700px 820px;

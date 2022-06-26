@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px) {
+  .box1__content {
+    width: 500px;
+    margin: 0 auto;
+    background-image: none;
+    background-color: #ece7e4;
+    background-repeat: no-repeat;
+    background-size: 700px 820px;
+    background-position: right;
+    background-size: 700px 920px;
+  }
+  .box1__container-box {
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 30px;
+  }
+  .box1__title {
+    font-size: 12px;
+  }
+  .box1__head {
+    font-size: 36px;
+  }
+  .box1__text {
+    max-width: 300px;
+    font-size: 16px;
+  }
+  .box1__read {
+    padding-left: 0px;
+  }
+  .box2_content {
+  }
+  .box2__text {
+  }
+  .box2__header {
+  }
+  .box2__header-spisok {
+  }
+  .box2__header-li {
+  }
+  .box2__text-random {
+  }
+  .box2__spisok {
+  }
+  .box2_spisok {
+  }
+  .box2__icon-names {
+  }
+  .box2__stephen-icon {
+  }
+  .box2__stephen-icon-text {
+  }
+  .box2__stephen {
+  }
+  .rank {
+  }
+  .box3__content {
+  }
+  .box3__text {
+  }
+  .box3__text-reed {
+  }
+  .box3__reed-random {
+  }
+  .box3__reed-main {
+  }
+}
