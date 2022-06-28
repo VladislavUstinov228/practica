@@ -18,8 +18,6 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  /* identical to box height, or 143% */
-
   letter-spacing: 2px;
   text-transform: uppercase;
 
@@ -31,7 +29,5 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
   color: #645c55;
 }

@@ -1,0 +1,203 @@
+.box9__container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 592px;
+}
+.box9__content {
+  width: 1168px;
+  height: 392px;
+  display: flex;
+}
+.box9__meet-team {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #403e3b;
+}
+.box9__text-fish {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #645c55;
+  max-width: 358px;
+  margin-bottom: 49px;
+  margin-top: 14px;
+}
+.box9__text-link {
+  margin-left: 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: #1b1a1a;
+  text-decoration: none;
+}
+.box9__text {
+  width: 393px;
+}
+.box9__img-staff {
+  display: flex;
+  flex-wrap: wrap;
+  width: 810px;
+}
+
+.box9__staff-boxs1 {
+  display: flex;
+  background-image: url(/images/stephen-collier.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 250px;
+  margin-right: 60px;
+}
+.box9__staff-boxs1 p {
+  margin-left: 100px;
+}
+.box9__staff-boxs2 p {
+  margin-left: 100px;
+}
+.box9__staff-boxs3 p {
+  margin-left: 100px;
+}
+.box9__staff-boxs4 p {
+  margin-left: 100px;
+}
+.box9__staff-boxs5 p {
+  margin-left: 100px;
+}
+.box9__name1 {
+  margin-top: 37px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #1b1a1a;
+}
+.box9__name2 {
+  margin-top: 37px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #1b1a1a;
+}
+.box9__name3 {
+  margin-top: 37px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #1b1a1a;
+}
+.box9__name4 {
+  margin-top: 45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #1b1a1a;
+}
+.box9__name5 {
+  margin-top: 37px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #1b1a1a;
+}
+.box9__rank1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  color: #645c55;
+}
+.box9__rank2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  color: #645c55;
+}
+.box9__rank3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  color: #645c55;
+}
+.box9__rank4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  color: #645c55;
+}
+.box9__rank5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+
+  color: #645c55;
+}
+.box9__staff-boxs3 {
+  display: flex;
+  margin-left: 80px;
+  width: 250px;
+  background-image: url(/images/nolan-peters.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-right: 60px;
+}
+.box9__staff-boxs2 {
+  display: flex;
+  background-image: url(/images/ferris-wonder.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 250px;
+  margin-right: 60px;
+}
+.box9__staff-boxs5 {
+  display: flex;
+  margin-left: 80px;
+  background-image: url(/images/aria-stone.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 250px;
+  margin-right: 60px;
+}
+.box9__staff-boxs4 {
+  display: flex;
+  background-position: left;
+  background-image: url(/images/niko-ferry.png);
+  background-repeat: no-repeat;
+  width: 250px;
+  margin-right: 60px;
+}
