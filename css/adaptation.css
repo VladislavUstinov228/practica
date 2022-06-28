@@ -14,7 +14,6 @@
     margin: 0 auto;
     padding-left: 30px;
   }
-  }
   .box1__title {
     font-size: 12px;
   }
@@ -69,5 +68,49 @@
   .box3__reed-random {
   }
   .box3__reed-main {
+  }
+  .box1__img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .box1__img {
+    display: none;
+  }
+  .box9__content {
+    margin-left: 300px;
+  }
+  .box9__staff-boxs3 {
+    margin-left: 5px;
+  }
+  .box9__staff-boxs5 {
+    margin-left: 5px;
+  }
+  .box8__no-view-adapt {
+    display: none;
+  }
+  .box8__image-texts {
+    width: 1200px;
+    background-repeat: no-repeat;
+  }
+  .box8__img-adapt {
+  }
+  .footer__icon-text {
+    margin-left: 160px;
+  }
+  .footer__content-box-right {
+    justify-content: center;
+  }
+  .box10__content {
+    margin-top: 90px;
+  }
+  .box10__get-touch {
+    margin-left: 40px;
+  }
+  .box10__container-box {
+    align-items: baseline;
+  }
+  .box6__text {
+    margin-left: 30px;
   }
 }

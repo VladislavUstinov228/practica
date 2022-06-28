@@ -1,11 +1,25 @@
-.box1__content {
-  background-image: url(/images/main-one.jpg);
-  height: 720px;
+.box1__container-box1 {
   width: 100%;
+  height: 720px;
+  display: flex;
+  align-items: center;
   background-color: #ece7e4;
-  background-repeat: no-repeat;
-  background-size: 700px 820px;
-  background-position: right;
+}
+.box1__content-box-first {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  height: 566px;
+  margin-left: 100px;
+}
+.box1__title {
+}
+.box1__head {
+}
+.box1__text {
+}
+.box1__read {
 }
 .box1__title {
   font-family: "Poppins";
@@ -16,10 +30,6 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #645c55;
-}
-.box1__container-box {
-  padding-top: 157px;
-  padding-left: 100px;
 }
 .box1__head {
   width: 417px;
@@ -43,5 +53,7 @@
   line-height: 24px;
   letter-spacing: 0.4px;
   color: #1b1a1a;
-  margin-bottom: 300px;
+}
+.box1__img {
+  margin-left: 120px;
 }
