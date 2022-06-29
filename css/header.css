@@ -1,4 +1,5 @@
 .header {
+  width: 100%;
   padding-top: 36px;
   padding-bottom: 35px;
   box-shadow: 11px 11px 25px rgba(9, 7, 37, 0.06);
@@ -6,10 +7,39 @@
 .header__row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.header__nav-btn {
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  padding: 5px 0;
+  position: relative;
+  display: none;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.header__nav-btn::after,
+.header__nav-btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #1b1a1a;
+}
+.menu__nav-btn::before {
+  top: 0;
+}
+.menu__nav-btn::after {
+  bottom: 0;
+}
+.span {
+  display: block;
+  height: 11px;
+  background-color: #ffffff;
 }
 .header__logo {
-  padding-left: 152px;
 }
 .header__nav {
   font-weight: 400;
