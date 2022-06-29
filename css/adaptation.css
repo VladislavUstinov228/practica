@@ -455,7 +455,7 @@
   .footer__icon-text {
     margin-left: 220px;
   }
-}
-.header__nav-btn {
-  display: block;
+  .header__nav-btn {
+    display: block;
+  }
 }
